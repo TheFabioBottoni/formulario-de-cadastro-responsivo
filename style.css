@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat; /* para imagem não repetir */
+    background-size: cover; /* para imagem ocupar toda a tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.input-password {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+#box {
+    display: flex;
+    width: 58.125rem;
+}
+
+#image-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+
+#form-box {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px) ; /* desfoque no background */
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+
+#form-box h2{
+    font-size: 30px;
+}
+
+#form-box p {
+    font-weight: bold;
+    color: #3D3D3D;
+}
+
+#form-box p a {
+    color: rgb(126, 74, 223);
+    text-decoration: none;
+}
+
+#form-box form {
+    margin: 20px 0;
+}
+
+form .input-group {
+    margin-bottom: 15px;
+}
+
+form .input-group label {
+    color: #3D3D3D;
+    font-weight: bold;
+    display: block; /* ocupa a linha inteira */
+    margin-bottom: 5px; 
+}
+
+form .input-group input {
+    width: 100%;
+    height: 35px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 10px;
+    font-size: 12px;
+    color: #606060;
+    transition: all 0.4s ease;
+}
+
+#form-box .btn_resgistrar button {
+    border-radius: 10px;
+}
+
+form .input-group input:focus  {
+    border-color: rgb(240, 128, 147);
+}
+
+form .input-group button {
+    width: 100%;
+    height: 40px;
+    background:rgb(235, 61, 90);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color:white ;
+    cursor: pointer;
+}
